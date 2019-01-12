@@ -1,0 +1,4 @@
+#Fri Jan 11 16:34:30 EST 2019
+base.0=C\:\\_dev\\quiz_tutorial\\quiz_tutorial\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
