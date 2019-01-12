@@ -15,7 +15,7 @@ class QuizPage extends StatefulWidget {
 class QuizPageState extends State<QuizPage> {
 
   Question currentQuestion;
-  Quiz quiz = new Quiz([
+  Quiz quiz = new Quiz([ // TODO: Have multiple lists for the different quiz types. "Quiz math_quiz = new Quiz([])", and etc.
     new Question("Mark Zuckerberg is a human", false),
     new Question("Pizza is healthy", true),
     new Question("What is 2 + 2?", true),
@@ -23,8 +23,8 @@ class QuizPageState extends State<QuizPage> {
     new Question("This is a good app", true),
     new Question("'int' is a primitive datatype", true),
     new Question("猫はかわいいです", true),
-    new Question("The Pokemon gen 2 remakes the best of the series", true),
-    new Question("Rectangles squares", false),
+    new Question("The Pokemon gen 2 remakes are the best", true),
+    new Question("Rectangles are squares", false),
     new Question("Lambda expressions are really hard", true)
   ]);
   String questionText;

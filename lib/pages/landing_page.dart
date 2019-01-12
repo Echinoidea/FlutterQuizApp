@@ -19,3 +19,5 @@ class LandingPage extends StatelessWidget {
     );
   }
 }
+
+// TODO: Add multiple "game modes" and let the user pick before starting the quiz. Maybe like "True/False", "Math questions", "Programming questions", etc.
