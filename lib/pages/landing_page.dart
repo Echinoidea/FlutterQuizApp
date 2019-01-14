@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'quiz_page.dart';
+import 'quiz_page_true_false.dart';
 
 class LandingPage extends StatelessWidget {
   @override
